@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">AR Camera Test</string>
+    <string name="AR_button">Go to AR Camera View</string>
+</resources>

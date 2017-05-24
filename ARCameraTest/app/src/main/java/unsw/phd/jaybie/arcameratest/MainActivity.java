@@ -1,4 +1,4 @@
-package unsw.phd.jaybie.cameratestapp;
+package unsw.phd.jaybie.arcameratest;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
@@ -13,9 +13,12 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
-    /** Called when the user taps the AR button */
+    /**
+     * Called when the user taps the AR button
+     */
     public void openAR(View view) {
         Intent ARintent = new Intent(this, AugmentedReality.class);
         startActivity(ARintent);
     }
+
 }

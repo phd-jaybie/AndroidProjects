@@ -1,9 +1,4 @@
-package unsw.phd.jaybie.cameratestapp;
-
-//  For this AR app, we are initially testing it as a camera only.
-//  (As of 23-05-2017)  We are using API level 16, thus, the old camera api will be used.
-//  For builds that will use more recent APIs, i.e. 21 and up,
-//  the camera api has been deprecated and is replaced by the camera 2 API.
+package unsw.phd.jaybie.arcameratest;
 
 import android.content.Context;
 import android.hardware.Camera;
@@ -24,7 +19,6 @@ public class AugmentedReality extends AppCompatActivity {
     //private SurfaceView mPreview;
     private MediaRecorder mMediaRecorder;
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -37,7 +31,6 @@ public class AugmentedReality extends AppCompatActivity {
         mPreview = new CameraPreview(this, mCamera);
         FrameLayout preview = (FrameLayout) findViewById(R.id.camera_preview);
         preview.addView(mPreview);
-
     }
 
     public static Camera getCameraInstance(){
@@ -136,6 +129,5 @@ public class AugmentedReality extends AppCompatActivity {
             mCamera = null;
         }
     }
-
-
+    
 }
