@@ -8,7 +8,7 @@ import android.widget.EditText;
 
 public class MainActivity extends AppCompatActivity {
     public static final String TestApplication_MESSAGE = "unsw.phd.jaybie.testapliccation.MESSAGE";
-    public static final int AR_requested = 1;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -24,10 +24,4 @@ public class MainActivity extends AppCompatActivity {
         startActivity(D_intent);
     }
 
-    /** Called when the user taps the AR button */
-    public void openAR(View view) {
-        Intent ARintent = new Intent(this, AugmentedRealityActivity.class);
-        ARintent.putExtra(AR_requested);
-        startActivity(ARintent);
-    }
 }
