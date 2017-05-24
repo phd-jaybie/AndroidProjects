@@ -129,5 +129,5 @@ public class AugmentedReality extends AppCompatActivity {
             mCamera = null;
         }
     }
-    
+
 }
