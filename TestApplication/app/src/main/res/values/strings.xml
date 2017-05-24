@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Test Application</string>
+    <string name="edit_message">Enter a message</string>
+    <string name="button_send">Send</string>
+    <string name="button_camera">Go to Augmented Reality</string>
+    <string name="take_picture">Take picture</string>
+</resources>
